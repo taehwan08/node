@@ -11,8 +11,8 @@ function login(){
         id: id.value,
         password: password.value,
     }
-    console.log(req)
-    console.log(JSON.stringify(req))
+    // console.log(req)
+    // console.log(JSON.stringify(req))
 
     // ajax 비동기 처리같넹..
     fetch("/login",{

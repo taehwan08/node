@@ -22,4 +22,6 @@ function login(){
         },
         body: JSON.stringify(req)
     })
+    .then((res) => console.log(res.json()))
+    .then((res) => console.log(res))
 }

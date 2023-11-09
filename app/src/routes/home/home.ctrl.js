@@ -18,7 +18,7 @@ const output = {
 const process = {
     login: (req, res) => {
         const id = req.body.id
-            password = req.body.password
+        const password = req.body.password
 
         if(users.id.includes(id)){
             const idx = users.id.indexOf(id)
@@ -31,7 +31,7 @@ const process = {
 
         return res.json({
             success: false,
-            msg: "로그인에 실패했습니다."
+            msg: "로그인에 실패했습니다.",
         })
     }
 }
